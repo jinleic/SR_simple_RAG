@@ -1,0 +1,15 @@
+# environment.yml 
+name: rag-env 
+channels: 
+  - conda-forge 
+dependencies: 
+  - python=3.9 
+  - pip 
+  - faiss-cpu 
+  - pip: 
+    - langchain 
+    - transformers 
+    - requests 
+    - numpy==1.26.4
+    - sentence-transformers
+    - langchain-community
